@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2011-2015 Valery A. Ilychev
+# This file is distributed under the same license as the Rynda package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -49,7 +49,7 @@ msgstr "Наименование сайта"
 
 #: rynda/core/models.py:32
 msgid "Link type"
-msgstr ""
+msgstr "Тип связи"
 
 #: rynda/core/models.py:33
 msgid "Link title"
@@ -177,7 +177,7 @@ msgstr "Просьба о помощи"
 
 #: rynda/message/models.py:80
 msgid "Help offers"
-msgstr ""
+msgstr "Предложения помощи"
 
 #: rynda/message/models.py:91
 msgid "New"
@@ -372,7 +372,7 @@ msgstr "Создать предложение помощи"
 
 #: rynda/message/views.py:45
 msgid "Successful connections"
-msgstr ""
+msgstr "Помощь оказана"
 
 #: rynda/newsline/models.py:12 rynda/newsline/models.py:22
 msgid "Post"
@@ -409,7 +409,7 @@ msgstr "Последняя редакция:"
 
 #: rynda/templates/admin/base_site.html:4
 msgid "Rynda site manager"
-msgstr ""
+msgstr "Управление сайтом"
 
 #: rynda/templates/base.html:41
 msgid "Sign in"
@@ -439,7 +439,7 @@ msgstr "Я хочу помочь"
 
 #: rynda/templates/base.html:61
 msgid "Create request for help"
-msgstr "Новая просьа о помощи"
+msgstr "Новая просбьа о помощи"
 
 #: rynda/templates/base.html:63
 msgid "portal for volunteers"
@@ -462,7 +462,7 @@ msgid "About us"
 msgstr "О нас"
 
 #: rynda/templates/base.html:95
-msgid "«Virtual Bell - Atlas of Assistance» platform, 2011-2014. License"
+msgid "«Virtual Bell - Atlas of Assistance» platform, 2011-2015. License"
 msgstr ""
 
 #: rynda/templates/base_list.html:11
@@ -537,41 +537,45 @@ msgstr "Напомнить пароль"
 
 #: rynda/templates/not_implemented.html:12
 msgid "Not implemented"
-msgstr ""
+msgstr "Временно не работает"
 
 #: rynda/templates/not_implemented.html:16
 msgid ""
 "Unfortunately, this page is under construction. Please use another site "
 "parts."
 msgstr ""
+"К сожалению, эта часть сайта пока не работает. Пожалуйста, используйте "
+"другие разделы"
 
 #: rynda/templates/registration/logged_out.html:9
 msgid "Thanks for spending some quality time with the Web site today."
-msgstr ""
+msgstr "Спасибо, что провели немного времени на сайте"
 
 #: rynda/templates/registration/logged_out.html:10
 msgid "Log in again"
-msgstr ""
+msgstr "Войти снова"
 
 #: rynda/templates/registration/password_change_done.html:3
 msgid "Password change successful"
-msgstr ""
+msgstr "Пароль успешно изменен"
 
 #: rynda/templates/registration/password_change_done.html:10
 msgid "Your password was changed."
-msgstr ""
+msgstr "Ваш пароль был изменен"
 
 #: rynda/templates/registration/password_change_form.html:11
 #: rynda/templates/registration/password_change_form.html:14
 #: rynda/templates/registration/password_change_form.html:19
 msgid "Password change"
-msgstr ""
+msgstr "Смена пароля"
 
 #: rynda/templates/registration/password_change_form.html:23
 msgid ""
 "Please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
+"Пожалуйста, введите старый пароль, затем дважды новый пароль, "
+"чтобы мы могли проверить и произвести смену пароля"
 
 #: rynda/templates/registration/password_change_form.html:28
 msgid "Old password"
@@ -589,11 +593,11 @@ msgstr "Повторите новый пароль"
 #: rynda/templates/registration/password_change_form.html:51
 #: rynda/templates/registration/password_reset_confirm.html:23
 msgid "Change my password"
-msgstr ""
+msgstr "Изменить мой пароль"
 
 #: rynda/templates/registration/password_reset_complete.html:3
 msgid "Password reset complete"
-msgstr ""
+msgstr "Сброс пароля завершен"
 
 #: rynda/templates/registration/password_reset_complete.html:10
 msgid "Your password has been set.  You may go ahead and log in now."
@@ -606,60 +610,69 @@ msgstr ""
 #: rynda/templates/registration/password_reset_confirm.html:4
 #: rynda/templates/registration/password_reset_confirm.html:7
 msgid "Enter new password"
-msgstr ""
+msgstr "Введите новый пароль"
 
 #: rynda/templates/registration/password_reset_confirm.html:4
 #: rynda/templates/registration/password_reset_confirm.html:29
 msgid "Password reset unsuccessful"
-msgstr ""
+msgstr "Не удалось изменить пароль"
 
 #: rynda/templates/registration/password_reset_confirm.html:9
 msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
 msgstr ""
+"Пожалуйста, введите новый пароль дважды, чтобы быть уверенными "
+"что в нем нет опечаток"
 
 #: rynda/templates/registration/password_reset_confirm.html:17
 msgid "Confirm password:"
-msgstr ""
+msgstr "Подтверждение пароля"
 
 #: rynda/templates/registration/password_reset_confirm.html:20
 msgid "Enter the same password as above, for verification."
-msgstr ""
+msgstr "Введите тот же пароль, что и выше, для проверки"
 
 #: rynda/templates/registration/password_reset_confirm.html:32
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
+"Это ошибочная ссылка. Пожалуйста, запросите новое изменение пароля"
 
 #: rynda/templates/registration/password_reset_done.html:4
 #: rynda/templates/registration/password_reset_done.html:6
 msgid "Password reset successful"
-msgstr ""
+msgstr "Пароль успешно изменен"
 
 #: rynda/templates/registration/password_reset_done.html:9
 msgid ""
 "We've emailed you instructions for setting your password. You should be "
 "receiving them shortly."
 msgstr ""
+"Мы отправили Вам инструкции по изменению пароля. Пожалуйста, "
+"проверьте Вашу почту"
 
 #: rynda/templates/registration/password_reset_done.html:10
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with, and check your spam folder."
 msgstr ""
+"Если Вы не получили email, пожалуйста проверьте что был введен тот же "
+"email, с которым Вы регистрировались. Также проверьте папку 'Спам'"
 
 #: rynda/templates/registration/password_reset_form.html:4
 #: rynda/templates/registration/password_reset_form.html:6
 msgid "Password reset"
-msgstr ""
+msgstr "Сброс пароля"
 
 #: rynda/templates/registration/password_reset_form.html:9
 msgid ""
 "Forgotten your password? Enter your email address below, and we'll email "
 "instructions for setting a new one."
 msgstr ""
+"Забыли пароль? Введите Ваш email в поле формы и мы отправим Вам "
+"инструкции для смены пароля"
 
 #: rynda/templates/registration/password_reset_form.html:12
 #: rynda/users/forms.py:26
@@ -668,15 +681,15 @@ msgstr ""
 
 #: rynda/templates/registration/password_reset_form.html:17
 msgid "Reset my password"
-msgstr ""
+msgstr "Сбросить пароль"
 
 #: rynda/templates/widgets/base_hub.html:3
 msgid "Users"
-msgstr ""
+msgstr "Пользователи"
 
 #: rynda/templates/widgets/base_hub.html:4
 msgid "About"
-msgstr ""
+msgstr "Информация"
 
 #: rynda/templates/widgets/filter.html:5
 msgid "Search"
@@ -685,48 +698,48 @@ msgstr "Поиск"
 #: rynda/templates/widgets/message_pane.html:21
 #, python-format
 msgid "Message %(num)s"
-msgstr ""
+msgstr "Сообщение %(num)s"
 
 #: rynda/templates/widgets/message_pane.html:30
 msgid "All messages"
-msgstr ""
+msgstr "Все сообщения"
 
 #: rynda/templates/widgets/message_pane.html:34
 msgid "No messages found"
-msgstr ""
+msgstr "Сообщений не найдено"
 
 #: rynda/users/forms.py:29
 msgid "Password"
-msgstr ""
+msgstr "Пароль  "
 
 #: rynda/users/forms.py:32
 msgid "Password(retype)"
-msgstr ""
+msgstr "Повторите пароль"
 
 #: rynda/users/forms.py:38 rynda/users/tests/xUnit/test_forms.py:74
 msgid "The password fields did not match"
-msgstr ""
+msgstr "Введенные пароли не совпадают"
 
 #: rynda/users/forms.py:43 rynda/users/tests/xUnit/test_forms.py:41
 msgid "You must provide a first name!"
-msgstr ""
+msgstr "Пожалуйста, укажите Ваше имя!"
 
 #: rynda/users/forms.py:48 rynda/users/tests/xUnit/test_forms.py:57
 msgid "You must provide a last name!"
-msgstr ""
+msgstr "Пожалуйста, укажите фамилию!"
 
 #: rynda/users/forms.py:56 rynda/users/tests/xUnit/test_forms.py:66
 msgid "This email already registered"
-msgstr ""
+msgstr "У нас уже есть такой пользователь"
 
 #: rynda/users/forms.py:60
 msgid "Email seems to be wrong"
-msgstr ""
+msgstr "Неверный email"
 
 #: rynda/users/forms.py:100 rynda/users/forms.py:109
 #, python-format
 msgid "%s (descending)"
-msgstr ""
+msgstr "%s (по убыванию)"
 
 #: rynda/users/models.py:62
 msgid "Profile"
@@ -767,15 +780,15 @@ msgstr "Регистрация"
 
 #: rynda/users/templates/registration_success.html:4
 msgid "Registration success"
-msgstr ""
+msgstr "Регистрация завершена"
 
 #: rynda/users/templates/registration_success.html:14
 msgid "You successfully registered!"
-msgstr ""
+msgstr "Вы успешно зарегистрировались!"
 
 #: rynda/users/templates/registration_success.html:17
 msgid "Congratulations!"
-msgstr ""
+msgstr "Поздравляем!"
 
 #: rynda/users/templates/registration_success.html:18
 msgid ""
@@ -783,32 +796,35 @@ msgid ""
 "            Your registration is almost done. Please, check your emails for "
 "a mail from us with a confirmation link."
 msgstr ""
+"\n"
+"Регистрация почти завершена. Мы отправили Вам email с сылкой на"
+"подтверждение регистрации.
 
 #: rynda/users/templates/user_details.html:11 rynda/users/views.py:29
 msgid "User list"
-msgstr ""
+msgstr "Список пользователей"
 
 #: rynda/users/templates/user_details.html:12
 msgid "User page"
-msgstr ""
+msgstr "Страница пользователя"
 
 #: rynda/users/templates/user_details.html:20
 #, python-format
 msgid "User profile for %(name)s"
-msgstr ""
+msgstr "Профиль пользователя %(name)s"
 
 #: rynda/users/templates/user_details.html:37
 msgid "Registration date:"
-msgstr ""
+msgstr "Зарегистрирован:"
 
 #: rynda/users/templates/user_details.html:40
 #: rynda/users/templates/user_list.html:20
 msgid "Last login:"
-msgstr ""
+msgstr "В последний раз заходил:"
 
 #: rynda/users/templates/user_details.html:46
 msgid "About me"
-msgstr ""
+msgstr "О себе"
 
 #: rynda/users/templates/user_details.html:54
 msgid "User's posts"
@@ -816,32 +832,32 @@ msgstr "Сообщения пользователя"
 
 #: rynda/users/templates/user_details.html:60
 msgid "Write email"
-msgstr ""
+msgstr "Написать email"
 
 #: rynda/users/templates/user_list.html:18
 msgid "More info"
-msgstr ""
+msgstr "Дальше"
 
 #: rynda/users/templates/user_list.html:20
 msgid "Registered at:"
-msgstr ""
+msgstr "Зарегистрирован:"
 
 #: rynda/users/templates/user_list.html:28
 msgid "Users on page:"
-msgstr ""
+msgstr "Пользователей на странице:"
 
 #: rynda/users/tests/xUnit/test_forms.py:33
 #: rynda/users/tests/xUnit/test_forms.py:49
 msgid "This field is required."
-msgstr ""
+msgstr "Это поле заполнять обязательно"
 
 #: rynda/users/views.py:85
 msgid "Profile was updated successfully!"
-msgstr ""
+msgstr "Профиль успешно обновлен!"
 
 #: rynda/users/views.py:95
 msgid "Please log in to edit your profile"
-msgstr ""
+msgstr "Пожалуйста, авторизуйтесь для редактирования Вашего профиля"
 
 #~ msgid "Locations"
 #~ msgstr "Местоположения"
