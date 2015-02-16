@@ -284,7 +284,7 @@ msgstr "Последнее редактирование"
 #: rynda/message/models.py:238
 #, python-format
 msgid "Note from %(user)s to message %(msgid)d"
-msgstr "Запись от %(user) к сообщениям %(msgid)d "
+msgstr "Запись от %(user)s к сообщениям %(msgid)d "
 
 #: rynda/message/templates/message_details.html:11
 #: rynda/message/templates/messages_list.html:10 rynda/templates/base.html:87
