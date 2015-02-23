@@ -11,6 +11,7 @@
 {% block css %}<link rel="stylesheet" href="{{STATIC_URL}}css/flexslider.css">{% endblock %}
 
 {% block maincontent %}
+{% comment %}
 <div class="row">
     <div id="topwidget" class="panel panel-primary">
         <div class='panel-heading'>{% trans "How it works" %}</div>
@@ -24,6 +25,7 @@
         </div>
     </div>
 </div>
+{% endcomment %}
 <!-- Map row -->
 <div id="mapWithFilterForm"  class="row" >
     <div class="panel panel-primary">
