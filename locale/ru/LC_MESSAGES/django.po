@@ -1,5 +1,4 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2015 Valery A. Ilychev
 # This file is distributed under the same license as the Rynda package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -10,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-13 14:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Valery Ilychev <ilychev@gmail.com>\n"
+"Last-Translator: <kiberiusl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +68,7 @@ msgstr "Номер для сортировки"
 
 #: rynda/core/models.py:47
 msgid "Site map options"
-msgstr ""
+msgstr "Настройки карты"
 
 #: rynda/core/models.py:50 rynda/geozones/models.py:31
 msgid "Map zoom"
@@ -96,11 +95,11 @@ msgstr "Регионы"
 
 #: rynda/geozones/models.py:27 rynda/message/models.py:29
 msgid "slug"
-msgstr ""
+msgstr "Запрос"
 
 #: rynda/geozones/models.py:29
 msgid "Map center"
-msgstr "Координаты центра карты"
+msgstr "Координаты карты"
 
 #: rynda/geozones/models.py:32
 msgid "Order"
@@ -285,7 +284,7 @@ msgstr "Последнее редактирование"
 #: rynda/message/models.py:238
 #, python-format
 msgid "Note from %(user)s to message %(msgid)d"
-msgstr ""
+msgstr "Запись от %(user)s к сообщениям %(msgid)d "
 
 #: rynda/message/templates/message_details.html:11
 #: rynda/message/templates/messages_list.html:10 rynda/templates/base.html:87
@@ -340,7 +339,7 @@ msgstr "Местоположение"
 
 #: rynda/message/templates/message_form.html:134
 msgid "Please, click on the pin button and drop it on your city"
-msgstr ""
+msgstr "Пожалуста, нажмите на и перенесите на Ваш город"
 
 #: rynda/message/templates/messages_list.html:44
 msgid "Messages on page:"
@@ -455,7 +454,7 @@ msgstr "Помощь оказана"
 
 #: rynda/templates/base.html:89
 msgid "RSS feed"
-msgstr ""
+msgstr "RSS сообщения"
 
 #: rynda/templates/base.html:91
 msgid "About us"
@@ -601,11 +600,11 @@ msgstr "Сброс пароля завершен"
 
 #: rynda/templates/registration/password_reset_complete.html:10
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr ""
+msgstr "Ваш пароль определен, Вы можете идти далее"
 
 #: rynda/templates/registration/password_reset_complete.html:11
 msgid "Log in"
-msgstr ""
+msgstr "Войти"
 
 #: rynda/templates/registration/password_reset_confirm.html:4
 #: rynda/templates/registration/password_reset_confirm.html:7
@@ -677,7 +676,7 @@ msgstr ""
 #: rynda/templates/registration/password_reset_form.html:12
 #: rynda/users/forms.py:26
 msgid "Email"
-msgstr ""
+msgstr "Почта"
 
 #: rynda/templates/registration/password_reset_form.html:17
 msgid "Reset my password"
@@ -836,7 +835,7 @@ msgstr "Написать email"
 
 #: rynda/users/templates/user_list.html:18
 msgid "More info"
-msgstr "Дальше"
+msgstr "Больше информации"
 
 #: rynda/users/templates/user_list.html:20
 msgid "Registered at:"
