@@ -34,7 +34,7 @@ urlpatterns += patterns('',
 urlpatterns += patterns(
     '',
     url(r'^info/$', 'rynda.core.views.infopages', name="infopages"),
-    url(r'^(?P<url>.*)/$', 'django.contrib.flatpages.views.flatpage', ),
+    url(r'^(?P<url>.*/)$', 'django.contrib.flatpages.views.flatpage', ),
 )
 
 # Account-related patterns
