@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rynda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-13 14:39+0300\n"
+"POT-Creation-Date: 2015-02-26 15:30+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: <kiberiusl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,12 +129,12 @@ msgid "You must provide at least one from contact email or phone!"
 msgstr "Укажите эл.почту или телефон для связи!"
 
 #: rynda/message/forms.py:160 rynda/message/forms.py:194
-#: rynda/message/models.py:114 rynda/templates/index.html:43
+#: rynda/message/models.py:114 rynda/templates/index.html:45
 msgid "Message type"
 msgstr "Тип сообщения"
 
 #: rynda/message/forms.py:167 rynda/message/forms.py:201
-#: rynda/message/models.py:18 rynda/templates/index.html:44
+#: rynda/message/models.py:18 rynda/templates/index.html:46
 #: rynda/users/forms.py:76
 msgid "Category"
 msgstr "Категория"
@@ -263,7 +263,7 @@ msgid "message categories"
 msgstr "категории сообщения"
 
 #: rynda/message/models.py:226 rynda/newsline/models.py:27
-#: rynda/newsline/templates/post_list.html:23
+#: rynda/newsline/templates/post_list.html:34
 msgid "Author"
 msgstr "Автор"
 
@@ -285,7 +285,8 @@ msgid "Note from %(user)s to message %(msgid)d"
 msgstr "Запись от %(user)s к сообщениям %(msgid)d "
 
 #: rynda/message/templates/message_details.html:11
-#: rynda/message/templates/messages_list.html:10 rynda/templates/base.html:87
+#: rynda/message/templates/messages_list.html:10
+#: rynda/newsline/templates/post_list.html:10 rynda/templates/base.html:87
 #: rynda/templates/flatpages/default.html:10
 #: rynda/templates/infopages_list.html:10
 #: rynda/templates/registration/password_change_form.html:10
@@ -339,6 +340,23 @@ msgstr "Местоположение"
 msgid "Please, click on the pin button and drop it on your city"
 msgstr "Пожалуста, нажмите на и перенесите на Ваш город"
 
+#: rynda/message/templates/message_success.html:5
+msgid " Message added successfully! "
+msgstr "Сообщение добавлено!"
+
+#: rynda/message/templates/message_success.html:9
+msgid ""
+"\n"
+"Your message was successfully added and will appear in the public domain "
+"after\n"
+"checking. We will contact you as soon as possible to figure out the "
+"details.\n"
+"You can continue viewing the message list.\n"
+msgstr ""
+"Ваше сообщение отправлено и будет доступно после проверки."
+"В ближайшее время мы свяжемся с Вами для уточнения деталей."
+"Вы можете продолжить просмотр сайта."
+
 #: rynda/message/templates/messages_list.html:44
 msgid "Messages on page:"
 msgstr "Сообщений на странице:"
@@ -380,7 +398,7 @@ msgid "draft"
 msgstr "черновик"
 
 #: rynda/newsline/models.py:19 rynda/newsline/models.py:25
-#: rynda/newsline/templates/post_list.html:20
+#: rynda/newsline/templates/post_list.html:31
 msgid "Published"
 msgstr "Опубликовано"
 
@@ -392,11 +410,12 @@ msgstr "Создано"
 msgid "Modified"
 msgstr "Изменено"
 
-#: rynda/newsline/templates/post_list.html:9 rynda/templates/base.html:90
+#: rynda/newsline/templates/post_list.html:11
+#: rynda/newsline/templates/post_list.html:20 rynda/templates/base.html:90
 msgid "Site news"
 msgstr "Новости сайта"
 
-#: rynda/newsline/templates/post_list.html:21
+#: rynda/newsline/templates/post_list.html:32
 msgid "Last edit at:"
 msgstr "Последняя редакция:"
 
@@ -498,15 +517,11 @@ msgstr "Вперед"
 msgid "Information pages"
 msgstr "Информационные страницы"
 
-#: rynda/templates/index.html:16
-msgid "How it works"
-msgstr "Принципы работы"
-
-#: rynda/templates/index.html:31
+#: rynda/templates/index.html:33
 msgid "Messages on map"
 msgstr "Сообщения на карте"
 
-#: rynda/templates/index.html:38
+#: rynda/templates/index.html:40
 msgid "Map filters"
 msgstr "Фильтрация карты"
 
@@ -565,8 +580,8 @@ msgid ""
 "Please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
-"Пожалуйста, введите старый пароль, затем дважды новый пароль, "
-"чтобы мы могли проверить и произвести смену пароля"
+"Пожалуйста, введите старый пароль, затем дважды новый пароль, чтобы мы могли "
+"проверить и произвести смену пароля"
 
 #: rynda/templates/registration/password_change_form.html:28
 msgid "Old password"
@@ -613,8 +628,8 @@ msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
 msgstr ""
-"Пожалуйста, введите новый пароль дважды, чтобы быть уверенными "
-"что в нем нет опечаток"
+"Пожалуйста, введите новый пароль дважды, чтобы быть уверенными что в нем нет "
+"опечаток"
 
 #: rynda/templates/registration/password_reset_confirm.html:17
 msgid "Confirm password:"
@@ -628,8 +643,7 @@ msgstr "Введите тот же пароль, что и выше, для пр
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
-msgstr ""
-"Это ошибочная ссылка. Пожалуйста, запросите новое изменение пароля"
+msgstr "Это ошибочная ссылка. Пожалуйста, запросите новое изменение пароля"
 
 #: rynda/templates/registration/password_reset_done.html:4
 #: rynda/templates/registration/password_reset_done.html:6
@@ -641,16 +655,16 @@ msgid ""
 "We've emailed you instructions for setting your password. You should be "
 "receiving them shortly."
 msgstr ""
-"Мы отправили Вам инструкции по изменению пароля. Пожалуйста, "
-"проверьте Вашу почту"
+"Мы отправили Вам инструкции по изменению пароля. Пожалуйста, проверьте Вашу "
+"почту"
 
 #: rynda/templates/registration/password_reset_done.html:10
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with, and check your spam folder."
 msgstr ""
-"Если Вы не получили email, пожалуйста проверьте что был введен тот же "
-"email, с которым Вы регистрировались. Также проверьте папку 'Спам'"
+"Если Вы не получили email, пожалуйста проверьте что был введен тот же email, "
+"с которым Вы регистрировались. Также проверьте папку 'Спам'"
 
 #: rynda/templates/registration/password_reset_form.html:4
 #: rynda/templates/registration/password_reset_form.html:6
@@ -662,8 +676,8 @@ msgid ""
 "Forgotten your password? Enter your email address below, and we'll email "
 "instructions for setting a new one."
 msgstr ""
-"Забыли пароль? Введите Ваш email в поле формы и мы отправим Вам "
-"инструкции для смены пароля"
+"Забыли пароль? Введите Ваш email в поле формы и мы отправим Вам инструкции "
+"для смены пароля"
 
 #: rynda/templates/registration/password_reset_form.html:12
 #: rynda/users/forms.py:26
@@ -788,8 +802,8 @@ msgid ""
 "a mail from us with a confirmation link."
 msgstr ""
 "\n"
-"Регистрация почти завершена. Мы отправили Вам email с сылкой на"
-"подтверждение регистрации."
+"Регистрация почти завершена. Мы отправили Вам email с сылкой наподтверждение "
+"регистрации."
 
 #: rynda/users/templates/user_details.html:11 rynda/users/views.py:29
 msgid "User list"
@@ -849,6 +863,9 @@ msgstr "Профиль успешно обновлен!"
 #: rynda/users/views.py:95
 msgid "Please log in to edit your profile"
 msgstr "Пожалуйста, авторизуйтесь для редактирования Вашего профиля"
+
+#~ msgid "How it works"
+#~ msgstr "Принципы работы"
 
 #~ msgid "Locations"
 #~ msgstr "Местоположения"

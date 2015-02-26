@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-13 14:39+0300\n"
+"POT-Creation-Date: 2015-02-26 15:30+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,12 +128,12 @@ msgid "You must provide at least one from contact email or phone!"
 msgstr ""
 
 #: rynda/message/forms.py:160 rynda/message/forms.py:194
-#: rynda/message/models.py:114 rynda/templates/index.html:43
+#: rynda/message/models.py:114 rynda/templates/index.html:45
 msgid "Message type"
 msgstr ""
 
 #: rynda/message/forms.py:167 rynda/message/forms.py:201
-#: rynda/message/models.py:18 rynda/templates/index.html:44
+#: rynda/message/models.py:18 rynda/templates/index.html:46
 #: rynda/users/forms.py:76
 msgid "Category"
 msgstr ""
@@ -262,7 +262,7 @@ msgid "message categories"
 msgstr ""
 
 #: rynda/message/models.py:226 rynda/newsline/models.py:27
-#: rynda/newsline/templates/post_list.html:23
+#: rynda/newsline/templates/post_list.html:34
 msgid "Author"
 msgstr ""
 
@@ -284,7 +284,8 @@ msgid "Note from %(user)s to message %(msgid)d"
 msgstr ""
 
 #: rynda/message/templates/message_details.html:11
-#: rynda/message/templates/messages_list.html:10 rynda/templates/base.html:87
+#: rynda/message/templates/messages_list.html:10
+#: rynda/newsline/templates/post_list.html:10 rynda/templates/base.html:87
 #: rynda/templates/flatpages/default.html:10
 #: rynda/templates/infopages_list.html:10
 #: rynda/templates/registration/password_change_form.html:10
@@ -335,6 +336,20 @@ msgstr ""
 msgid "Please, click on the pin button and drop it on your city"
 msgstr ""
 
+#: rynda/message/templates/message_success.html:5
+msgid " Message added successfully! "
+msgstr ""
+
+#: rynda/message/templates/message_success.html:9
+msgid ""
+"\n"
+"Your message was successfully added and will appear in the public domain "
+"after\n"
+"checking. We will contact you as soon as possible to figure out the "
+"details.\n"
+"You can continue viewing the message list.\n"
+msgstr ""
+
 #: rynda/message/templates/messages_list.html:44
 msgid "Messages on page:"
 msgstr ""
@@ -376,7 +391,7 @@ msgid "draft"
 msgstr ""
 
 #: rynda/newsline/models.py:19 rynda/newsline/models.py:25
-#: rynda/newsline/templates/post_list.html:20
+#: rynda/newsline/templates/post_list.html:31
 msgid "Published"
 msgstr ""
 
@@ -388,11 +403,12 @@ msgstr ""
 msgid "Modified"
 msgstr ""
 
-#: rynda/newsline/templates/post_list.html:9 rynda/templates/base.html:90
+#: rynda/newsline/templates/post_list.html:11
+#: rynda/newsline/templates/post_list.html:20 rynda/templates/base.html:90
 msgid "Site news"
 msgstr ""
 
-#: rynda/newsline/templates/post_list.html:21
+#: rynda/newsline/templates/post_list.html:32
 msgid "Last edit at:"
 msgstr ""
 
@@ -449,7 +465,7 @@ msgid "About us"
 msgstr ""
 
 #: rynda/templates/base.html:95
-msgid "«Virtual Bell - Atlas of Assistance» platform, 2011-2014. License"
+msgid "«Virtual Bell - Atlas of Assistance» platform, 2011-2015. License"
 msgstr ""
 
 #: rynda/templates/base_list.html:11
@@ -494,15 +510,11 @@ msgstr ""
 msgid "Information pages"
 msgstr ""
 
-#: rynda/templates/index.html:16
-msgid "How it works"
-msgstr ""
-
-#: rynda/templates/index.html:31
+#: rynda/templates/index.html:33
 msgid "Messages on map"
 msgstr ""
 
-#: rynda/templates/index.html:38
+#: rynda/templates/index.html:40
 msgid "Map filters"
 msgstr ""
 
