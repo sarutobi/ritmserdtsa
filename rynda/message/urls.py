@@ -13,4 +13,5 @@ urlpatterns = patterns('',
     url('^pomogu/dobavit', CreateOffer.as_view(), name='message-create-offer'),
     url('^pomogite/pomogli/$', ClosedMessageList.as_view(), name='closed-message-list'),
     url('^pomogite/pomogli/page/(?P<page>\d+)/$', ClosedMessageList.as_view()),
+    url(r'^added/$', 'rynda.message.views.message_added', name='message-added',),
 )
