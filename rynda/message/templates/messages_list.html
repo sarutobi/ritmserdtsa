@@ -29,7 +29,8 @@
         <br />
         <br />
         <span class="darkGrey fs10">
-            {{m.date_add|date:"SHORT_DATE_FORMAT"}} | 
+            {{m.date_add|date:"SHORT_DATE_FORMAT"}} |
+            <span class="fa fa-tags"></span>
             {% for c in m.category.all %}
             <a href="{% url "messages-list" %}?category={{ c.id }}" class="rynda-tag">{{ c }}</a>
             {% endfor %}
