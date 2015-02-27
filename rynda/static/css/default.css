@@ -5847,3 +5847,6 @@ button.close {
 .message_pane ul li:hover {
   background: #ddeded;
 }
+.form-group .controls {
+  margin-left: 15px;
+}
