@@ -116,9 +116,9 @@ class MessageList(RyndaListView):
 
     def get_context_data(self, **kwargs):
         context = super(MessageList, self).get_context_data(**kwargs)
-        context['filter'] = MessageSideFilter(self.request.GET, self.queryset)
-        count = self.queryset.count()
-        context['count'] = count
+        o_filter = MessageSideFilter(self.request.GET, self.queryset)
+        context['filter'] = o_filter
+        context['count'] = o_filter.qs.count()
         return context
 
 
