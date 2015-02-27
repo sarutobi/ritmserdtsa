@@ -21,6 +21,20 @@
 {% for m in filter %}
 <li class="list-group-item">
     <div class="list_content">
+        {% if m.messageType == 1 %}
+        <i class="fa fa-bell"></i>
+        {% else %}
+        <i class="fa fa-user"></i>
+        {%endif %}
+        {% if m.status == 2 %}
+        <i class="fa fa-question"></i>
+        {% elif m.status == 3 %}
+        <i class="fa fa-check-square-o"></i>
+        {% elif m.status == 4 %}
+        <i class="fa fa-clock-o"></i>
+        {% else %}
+        <i class="fa fa-lock"></i>
+        {% endif %}
         <a href="{% url "message-details" m.id %}" class="darkRed">
             {{ m.get_messageType_display|capfirst }} #{{ m.id }}{% if m.title %}: {{ m.title }} {% endif %}
         </a>
@@ -29,6 +43,7 @@
         <br />
         <br />
         <span class="darkGrey fs10">
+            <i class="fa fa-calendar-o"></i>
             {{m.date_add|date:"SHORT_DATE_FORMAT"}} |
             <span class="fa fa-tags"></span>
             {% for c in m.category.all %}
