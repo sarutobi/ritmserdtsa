@@ -24,7 +24,7 @@
                 {% for m in posts %}
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">{{ m.title }}</h3>
+                        <strong class="panel-title">{{ m.title|capfirst }}</strong>
                     </div>
                     <div class="panel-body">{{ m.post }}</div>
                     <div class="panel-footer">
