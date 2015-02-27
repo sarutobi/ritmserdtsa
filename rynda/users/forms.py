@@ -67,8 +67,8 @@ class UserFilter(django_filters.FilterSet):
         model = User
         fields = ['category', 'q']
         order_by = (
-            ('full_name', 'User Name'),
-            ('date_joined', 'Date joined'),
+            ('full_name', _('User Name')),
+            ('date_joined', _('Date joined')),
         )
 
     category = django_filters.ModelMultipleChoiceFilter(
@@ -108,7 +108,7 @@ class UserFilter(django_filters.FilterSet):
                         (fltr.name or f, fltr.label or capfirst(f)),
                         ("-%s" % (fltr.name or f), _('%s (descending)' % (fltr.label or capfirst(f))))
                     ])
-            return forms.ChoiceField(label="Ordering", required=False,
+            return forms.ChoiceField(label=_("Ordering"), required=False,
                                      choices=choices)
 
 

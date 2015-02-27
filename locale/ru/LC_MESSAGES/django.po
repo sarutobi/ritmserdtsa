@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rynda\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-26 15:30+0300\n"
+"POT-Creation-Date: 2015-02-27 11:31+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: <kiberiusl@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,9 +62,9 @@ msgstr "Адрес ссылки"
 msgid "Include protocol, ex. 'mailto:email@host' for email"
 msgstr "Включая протокол, например 'mailto:email@host' для эл.почты"
 
-#: rynda/core/models.py:38
+#: rynda/core/models.py:38 rynda/users/forms.py:111
 msgid "Ordering"
-msgstr "Номер для сортировки"
+msgstr "Порядок сортировки"
 
 #: rynda/core/models.py:47
 msgid "Site map options"
@@ -103,47 +103,47 @@ msgstr "Координаты карты"
 msgid "Order"
 msgstr "Номер для сортировки"
 
-#: rynda/message/forms.py:46
+#: rynda/message/forms.py:48
 msgid "Unknown message type!"
 msgstr "Неизвестный тип сообщения!"
 
-#: rynda/message/forms.py:64 rynda/users/forms.py:22
+#: rynda/message/forms.py:66 rynda/users/forms.py:22
 msgid "First name"
 msgstr "Имя"
 
-#: rynda/message/forms.py:65 rynda/users/forms.py:25
+#: rynda/message/forms.py:67 rynda/users/forms.py:25
 msgid "Last name"
 msgstr "Фамилия"
 
-#: rynda/message/forms.py:66
+#: rynda/message/forms.py:68
 msgid "Contact email"
 msgstr "Эл.почта"
 
-#: rynda/message/forms.py:67
+#: rynda/message/forms.py:69
 msgid "Contact phone"
 msgstr "Контактный телефон"
 
-#: rynda/message/forms.py:98 rynda/message/forms.py:101
-#: rynda/message/forms.py:104
+#: rynda/message/forms.py:100 rynda/message/forms.py:103
+#: rynda/message/forms.py:106
 msgid "You must provide at least one from contact email or phone!"
 msgstr "Укажите эл.почту или телефон для связи!"
 
-#: rynda/message/forms.py:160 rynda/message/forms.py:194
+#: rynda/message/forms.py:174 rynda/message/forms.py:206
 #: rynda/message/models.py:114 rynda/templates/index.html:45
 msgid "Message type"
 msgstr "Тип сообщения"
 
-#: rynda/message/forms.py:167 rynda/message/forms.py:201
+#: rynda/message/forms.py:181 rynda/message/forms.py:213
 #: rynda/message/models.py:18 rynda/templates/index.html:46
 #: rynda/users/forms.py:76
 msgid "Category"
 msgstr "Категория"
 
-#: rynda/message/forms.py:174
+#: rynda/message/forms.py:188
 msgid "Urgent"
 msgstr "Срочность"
 
-#: rynda/message/forms.py:180 rynda/users/forms.py:83
+#: rynda/message/forms.py:193 rynda/users/forms.py:83
 msgid "Keywords"
 msgstr "Ключевые слова"
 
@@ -295,7 +295,7 @@ msgid "Home"
 msgstr "Домой"
 
 #: rynda/message/templates/message_details.html:12
-#: rynda/message/templates/messages_list.html:11 rynda/message/views.py:114
+#: rynda/message/templates/messages_list.html:11 rynda/message/views.py:115
 msgid "Message list"
 msgstr "Список сообщений"
 
@@ -354,9 +354,9 @@ msgid ""
 "You can continue viewing the message list.\n"
 msgstr ""
 "\n"
-"Ваше сообщение отправлено и будет доступно после проверки.\n "
-"В ближайшее время мы свяжемся с Вами для уточнения деталей.\n "
-"Вы можете продолжить просмотр сайта.\n"
+"Ваше сообщение отправлено и будет доступно после проверки.\n"
+" В ближайшее время мы свяжемся с Вами для уточнения деталей.\n"
+" Вы можете продолжить просмотр сайта.\n"
 
 #: rynda/message/templates/messages_list.html:44
 msgid "Messages on page:"
@@ -741,6 +741,14 @@ msgstr "У нас уже есть такой пользователь"
 #: rynda/users/forms.py:60
 msgid "Email seems to be wrong"
 msgstr "Неверный email"
+
+#: rynda/users/forms.py:70
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: rynda/users/forms.py:71
+msgid "Date joined"
+msgstr "Дата регистрации"
 
 #: rynda/users/forms.py:100 rynda/users/forms.py:109
 #, python-format
