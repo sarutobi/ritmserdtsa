@@ -5854,3 +5854,12 @@ button.close {
 li label {
     font-weight: normal;
 }
+
+a.black {
+    color: #000;
+}
+
+a.darkred {
+    color: #933;
+    font-weight: bold;
+}

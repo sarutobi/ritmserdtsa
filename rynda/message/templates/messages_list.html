@@ -35,8 +35,11 @@
         {% else %}
         <i class="fa fa-lock"></i>
         {% endif %}
-        <a href="{% url "message-details" m.id %}" class="darkRed">
-            {{ m.get_messageType_display|capfirst }} #{{ m.id }}{% if m.title %}: {{ m.title }} {% endif %}
+        <a href="{% url "message-details" m.id %}" class="black">
+            {{ m.get_messageType_display|capfirst }} #{{ m.id }}:
+        </a>
+        <a href="{% url "message-details" m.id %}" class="darkred">
+            {{ m.title|default:"Без заголовка" }}
         </a>
         <br />
         {{ m.message|safe|truncatewords:10 }}
