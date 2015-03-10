@@ -5850,3 +5850,7 @@ button.close {
 .form-group .controls {
   margin-left: 15px;
 }
+
+li label {
+    font-weight: normal;
+}
