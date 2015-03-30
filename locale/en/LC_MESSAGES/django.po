@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-27 11:31+0300\n"
+"POT-Creation-Date: 2015-03-30 19:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,12 +128,12 @@ msgid "You must provide at least one from contact email or phone!"
 msgstr ""
 
 #: rynda/message/forms.py:174 rynda/message/forms.py:206
-#: rynda/message/models.py:114 rynda/templates/index.html:45
+#: rynda/message/models.py:114 rynda/templates/index.html:51
 msgid "Message type"
 msgstr ""
 
 #: rynda/message/forms.py:181 rynda/message/forms.py:213
-#: rynda/message/models.py:18 rynda/templates/index.html:46
+#: rynda/message/models.py:18 rynda/templates/index.html:52
 #: rynda/users/forms.py:76
 msgid "Category"
 msgstr ""
@@ -350,7 +350,7 @@ msgid ""
 "You can continue viewing the message list.\n"
 msgstr ""
 
-#: rynda/message/templates/messages_list.html:44
+#: rynda/message/templates/messages_list.html:63
 msgid "Messages on page:"
 msgstr ""
 
@@ -464,7 +464,11 @@ msgstr ""
 msgid "About us"
 msgstr ""
 
-#: rynda/templates/base.html:95
+#: rynda/templates/base.html:92
+msgid "Thanks"
+msgstr ""
+
+#: rynda/templates/base.html:96
 msgid "«Virtual Bell - Atlas of Assistance» platform, 2011-2015. License"
 msgstr ""
 
@@ -510,11 +514,11 @@ msgstr ""
 msgid "Information pages"
 msgstr ""
 
-#: rynda/templates/index.html:33
+#: rynda/templates/index.html:39
 msgid "Messages on map"
 msgstr ""
 
-#: rynda/templates/index.html:40
+#: rynda/templates/index.html:46
 msgid "Map filters"
 msgstr ""
 
@@ -670,7 +674,7 @@ msgid "Reset my password"
 msgstr ""
 
 #: rynda/templates/widgets/base_hub.html:3
-msgid "Users"
+msgid "Volunteers"
 msgstr ""
 
 #: rynda/templates/widgets/base_hub.html:4
