@@ -26,6 +26,12 @@
     </div>
 </div>
 {% endcomment %}
+<div class="row">
+    {{ requests }}
+    {{ offers }}
+    {{ completed }}
+</div>
+
 <!-- Map row -->
 <div id="mapWithFilterForm"  class="row" >
     <div class="panel panel-primary">
@@ -69,12 +75,6 @@
 {% if disclaimer %}
 <div id="disclaimer" class="rounded_all g720 clearfix">{{ disclaimer }}</div>
 {% endif %}
-
-<div class="row">
-    {{ requests }}
-    {{ offers }}
-    {{ completed }}
-</div>
 
 {% endblock %}
 
