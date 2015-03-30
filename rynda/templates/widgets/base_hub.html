@@ -1,6 +1,6 @@
 {% load i18n %}
 {% trans "Messages" as msgs %}
-{% trans "Users" as users %}
+{% trans "Volunteers" as users %}
 {% trans "About" as about %}
 <div id='hub_tabs'>
     <ul class="hr tabs">
@@ -27,5 +27,6 @@
         {% else %}
             <li><div class='tabLink_container'><a href='{% url "infopages" %}'>{{ about }}</a></div></li>
         {% endif %}
+        <li><div><a href='{% url "support_us" %}'>Поддержи нас</a></div></li>
     </ul>
 </div>
