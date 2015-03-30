@@ -33,6 +33,12 @@ urlpatterns += patterns('',
 # Project description patterns
 urlpatterns += patterns(
     '',
+    url(r'^info/support_us$',
+        'django.contrib.flatpages.views.flatpage',
+        {'url': '/info/support_us', }, name='support_us',),
+    url(r'^info/thanks$',
+        'django.contrib.flatpages.views.flatpage',
+        {'url': '/info/thanks', }, name='thanks',),
     url(r'^info/$', 'rynda.core.views.infopages', name="infopages"),
     url(r'^(?P<url>.*/)$', 'django.contrib.flatpages.views.flatpage', ),
 )
