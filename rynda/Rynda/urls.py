@@ -2,6 +2,7 @@
 
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
+from django.views.generic import TemplateView
 
 from rynda.core.views import NewMessagesFeed
 from rynda.users.views import CreateUser
@@ -13,6 +14,8 @@ urlpatterns = patterns('',
     url(r'', include('social.apps.django_app.urls', namespace="social")),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^grappelli/', include('grappelli.urls')),
+    url(r'google32adad83804715ca.html/$',
+        TemplateView.as_view(template_name="google32adad83804715ca.html")),
 )
 
 urlpatterns += patterns('core.views',
