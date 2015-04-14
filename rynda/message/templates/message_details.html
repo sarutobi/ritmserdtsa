@@ -40,6 +40,8 @@
                 {% endfor %}
             </div>
             {% endif %}
+            <hr>
+            <div class="share42init"></div>
         </div>
         <div class="panel-footer">
             <span class="fa fa-tags"></span>
@@ -128,7 +130,7 @@
 {% block scripts %}
 {% leaflet_js %}
 {% leaflet_css %}
-
+<script type="text/javascript" src="{{ STATIC_URL }}/share42/share42.js"></script>
 <script type='text/javascript'>
 window.addEventListener("map:init", function(e){
     var detail = e.detail;
