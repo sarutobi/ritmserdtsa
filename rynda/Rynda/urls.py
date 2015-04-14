@@ -36,9 +36,9 @@ urlpatterns += patterns('',
 # Project description patterns
 urlpatterns += patterns(
     '',
-    url(r'^info/support_us$',
+    url(r'^about/support_us$',
         'django.contrib.flatpages.views.flatpage',
-        {'url': '/info/support_us', }, name='support_us',),
+        {'url': '/about/support_us', }, name='support_us',),
     url(r'^info/about_us$',
         'django.contrib.flatpages.views.flatpage',
         {'url': '/info/about_us', }, name='about_us',),
