@@ -16,12 +16,14 @@
         <li><div class='tabLink_container'><a href='{% url "messages-list" %}'>{{ msgs }}</a></div></li>
         {% endif %}
 
+        {% comment %}
         {% if part == 'user' %}
             <li class='tab_active'><div class='tabLink_container'>{{ users }}</div></li>
         {% else %}
         <li><div class='tabLink_container'><a href='{% url "user-list" %}'>{{ users }}</a></div></li>
         {% endif %}
-       
+        {% endcomment %}
+
         {% if part == 'about' %} 
             <li class='tab_active'><div class='tabLink_container'>{{ about }}</div></li>
         {% else %}
